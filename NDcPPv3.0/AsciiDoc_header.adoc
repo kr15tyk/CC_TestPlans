@@ -1,6 +1,7 @@
 :toc:
 :toclevels: 3
 :toc-title!:
+:toc: left
 
 == Testplan for NDcPPv3.0
 
