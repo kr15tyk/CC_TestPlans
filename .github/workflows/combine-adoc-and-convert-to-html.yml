@@ -1,9 +1,7 @@
 name: Combine Asciidoc, Convert to HTML, and Commit
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   build:
