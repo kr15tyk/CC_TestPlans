@@ -442,7 +442,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc">
 <div id="toctitle"></div>
 <ul class="sectlevel1">
-<li><a href="#_introduction">Introduction</a></li>
+<li><a href="#_introduction">Introduction</a>
+<ul class="sectlevel3">
+<li><a href="#_fau_gen_1_audit_data_generation">FAU_GEN.1 Audit data generation</a></li>
+<li><a href="#_fau_gen_2_user_identity_association">FAU_GEN.2 User identity association</a></li>
+<li><a href="#_fau_stg_ext_1_protected_audit_event_storage">FAU_STG_EXT.1 Protected Audit Event Storage</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -451,9 +457,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_introduction">Introduction</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This testplan includes the test cases a platform will need to pass in order to be certified under the <a href="https://github.com/ND-iTC/Documents/blob/main/NDcPP_v3_0.adoc">collaborative Protection Profile for Network Devices Version 3.0 (NDcPPv3.0)</a>. The testcases below are taken from the <a href="https://github.com/ND-iTC/Documents/blob/main/ND_Supporting_Document_3_0.adoc">Network Device Supporting Document Version 3.0 (NDSDv3.0)</a> which defines the Evaluation Activities associated with the Security Functional Requirements (SFR) in the NDcPP.
-==== FAU_GEN.1 Audit data generation</p>
+<p>This testplan includes the test cases a platform will need to pass in order to be certified under the <a href="https://github.com/ND-iTC/Documents/blob/main/NDcPP_v3_0.adoc">collaborative Protection Profile for Network Devices Version 3.0 (NDcPPv3.0)</a>. The testcases below are taken from the <a href="https://github.com/ND-iTC/Documents/blob/main/ND_Supporting_Document_3_0.adoc">Network Device Supporting Document Version 3.0 (NDSDv3.0)</a> which defines the Evaluation Activities associated with the Security Functional Requirements (SFR) in the NDcPP.<br></p>
 </div>
+<div class="sect3">
+<h4 id="_fau_gen_1_audit_data_generation">FAU_GEN.1 Audit data generation</h4>
 <div class="paragraph">
 <p>The evaluator shall test the TOE’s ability to correctly generate audit records by having the TOE generate audit records for the events listed in the table of audit events and administrative actions listed above. This should include all instances of an event: for instance, if there are several different I&amp;A mechanisms for a system, the FIA_UIA_EXT.1 events must be generated for each mechanism. The evaluator shall test that audit records are generated for the establishment and termination of a channel for each of the cryptographic protocols contained in the ST. If HTTPS is implemented, the test demonstrating the establishment and termination of a TLS session can be combined with the test for an HTTPS session. When verifying the test results, the evaluator shall ensure the audit records generated during testing match the format specified in the guidance documentation, and that the fields in each audit record have the proper entries.<br></p>
 </div>
@@ -461,16 +468,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>For distributed TOEs the evaluator shall perform tests on all TOE components according to the mapping of auditable events to TOE components in the Security Target. For all events involving more than one TOE component when an audit event is triggered, the evaluator has to check that the event has been audited on both sides (e.g. failure of building up a secure communication channel between the two components). This is not limited to error cases but includes also events about successful actions like successful build up/tear down of a secure communication channel between TOE components.<br></p>
 </div>
 <div class="paragraph">
-<p>Note that the testing here can be accomplished in conjunction with the testing of the security mechanisms directly
-==== FAU_GEN.2 User identity association</p>
+<p>Note that the testing here can be accomplished in conjunction with the testing of the security mechanisms directly<br></p>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_fau_gen_2_user_identity_association">FAU_GEN.2 User identity association</h4>
 <div class="paragraph">
 <p>This activity should be accomplished in conjunction with the testing of FAU_GEN.1.1.<br></p>
 </div>
 <div class="paragraph">
-<p>For distributed TOEs the evaluator shall verify that where auditable events are instigated by another component, the component that records the event associates the event with the identity of the instigator. The evaluator shall perform at least one test on one component where another component instigates an auditable event. The evaluator shall verify that the event is recorded by the component as expected and the event is associated with the instigating component. It is assumed that an event instigated by another component can at least be generated for building up a secure channel between two TOE components. If for some reason (could be e.g. TSS or Guidance Documentation) the evaluator would come to the conclusion that the overall TOE does not generate any events instigated by other components, then this requirement shall be omitted.
-==== FAU_STG_EXT.1 Protected Audit Event Storage</p>
+<p>For distributed TOEs the evaluator shall verify that where auditable events are instigated by another component, the component that records the event associates the event with the identity of the instigator. The evaluator shall perform at least one test on one component where another component instigates an auditable event. The evaluator shall verify that the event is recorded by the component as expected and the event is associated with the instigating component. It is assumed that an event instigated by another component can at least be generated for building up a secure channel between two TOE components. If for some reason (could be e.g. TSS or Guidance Documentation) the evaluator would come to the conclusion that the overall TOE does not generate any events instigated by other components, then this requirement shall be omitted.<br></p>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_fau_stg_ext_1_protected_audit_event_storage">FAU_STG_EXT.1 Protected Audit Event Storage</h4>
 <div class="paragraph">
 <p>Testing of secure transmission of the audit data externally (FTP_ITC.1) and, where applicable, intercomponent (FPT_ITT.1 or FTP_ITC.1) shall be performed according to the assurance activities for the particular protocol(s).
 The evaluator shall perform the following additional test for this requirement:</p>
@@ -514,14 +525,15 @@ The evaluator shall perform the following additional test for this requirement:<
 <p>Test 5: For distributed TOEs, for the local storage according to FAU_STG_EXT.1.4, Test 1 specified above shall be applied to all TOE components that store audit data locally. For all TOE components that store audit data locally and comply with FAU_STG_EXT.2, Test 2 specified above shall be applied. The evaluator shall verify that the transfer of audit data to an external audit server is implemented.</p>
 </div>
 <div class="paragraph">
-<p>Test 6 [Conditional]: In case manual export or ability to view locally is selected in FAU_STG_EXT.1.4/LocSpace, during interruption the evaluator shall perform a TSF-mediated action and verify the event is recorded in the audit trail.</p>
+<p>Test 6 [Conditional]: In case manual export or ability to view locally is selected in FAU_STG_EXT.1.4/LocSpace, during interruption the evaluator shall perform a TSF-mediated action and verify the event is recorded in the audit trail.<br></p>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-04-20 20:45:14 UTC
+Last updated 2023-04-20 20:46:38 UTC
 </div>
 </div>
 </body>
