@@ -4,4 +4,5 @@ The evaluator shall test the TOE’s ability to correctly generate audit records
 
 For distributed TOEs the evaluator shall perform tests on all TOE components according to the mapping of auditable events to TOE components in the Security Target. For all events involving more than one TOE component when an audit event is triggered, the evaluator has to check that the event has been audited on both sides (e.g. failure of building up a secure communication channel between the two components). This is not limited to error cases but includes also events about successful actions like successful build up/tear down of a secure communication channel between TOE components. +
 
-Note that the testing here can be accomplished in conjunction with the testing of the security mechanisms directly
+Note that the testing here can be accomplished in conjunction with the testing of the security mechanisms directly +
+
