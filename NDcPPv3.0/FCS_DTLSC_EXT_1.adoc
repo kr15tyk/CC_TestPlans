@@ -1,4 +1,4 @@
-==== FCS_DTLSC_EXT.1 Extended: DTLS Client Protocol
+=== FCS_DTLSC_EXT.1 Extended: DTLS Client Protocol
 
 For clarification: DTLS communication packets might be received in a different order than sent due to the use of the UDP protocol. All tests requiring a specific order of test steps ("before", "after") are therefore referring to the sequence numbering of DTLS packets.
 
