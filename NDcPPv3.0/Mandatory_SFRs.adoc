@@ -167,7 +167,7 @@ The evaluator shall verify the correctness of the TSF’s implementation of safe
 
 ==== FCS_CKM.4 Cryptographic Key Destruction
 
-No Tests required
+There are no test requirements for this SFR.
 
 
 ==== FCS_COP.1/DataEncryption Cryptographic Operation (AES Data Encryption/Decryption)
