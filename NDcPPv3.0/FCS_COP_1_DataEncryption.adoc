@@ -93,3 +93,4 @@ The evaluator shall test the encrypt functionality using 100 plaintext/key pairs
 The ciphertext computed in the 1000th iteration is the result for that trial. This result shall be compared to the result of running 1000 iterations with the same values using a known good implementation. The evaluator shall perform this test using each selected keysize.
 
 There is no need to test the decryption engine. +
+
