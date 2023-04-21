@@ -1,0 +1,7 @@
+=== FTA_SSL.4 User-initiated Termination
+
+The evaluator shall perform the following tests:
+
+Test 1 [conditional]: If the TOE supports local administration, the evaluator initiates an interactive local session with the TOE. The evaluator then follows the guidance documentation to exit or log off the session and observes that the session has been terminated.
+
+Test 2: For each method of remote administration, the evaluator initiates an interactive remote session with the TOE. The evaluator then follows the guidance documentation to exit or log off the session and observes that the session has been terminated. +
