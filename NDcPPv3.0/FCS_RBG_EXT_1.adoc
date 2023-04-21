@@ -12,3 +12,4 @@ The following paragraphs contain more information on some of the input values to
 * *Nonce:* If a nonce is supported (CTR_DRBG with no Derivation Function does not use a nonce), the nonce bit length is one-half the seed length.
 * *Personalization string:* The length of the personalization string must be <= seed length. If the implementation only supports one personalization string length, then the same length can be used for both values. If more than one string length is support, the evaluator shall use personalization strings of two different lengths. If the implementation does not use a personalization string, no value needs to be supplied.
 * *Additional input:* the additional input bit lengths have the same defaults and restrictions as the personalization string lengths. +
+
