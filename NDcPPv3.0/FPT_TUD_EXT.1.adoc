@@ -14,3 +14,4 @@ Test 2 [conditional]: If the TOE itself verifies a digital signature to authoriz
 The evaluator shall perform Test 1 and Test 2  for all methods supported (manual updates, automatic checking for updates, automatic updates).
 
 For distributed TOEs the evaluator shall perform Test 1 and Test 2 for all TOE components. +
+
