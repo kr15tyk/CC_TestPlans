@@ -8,4 +8,4 @@ Follow these steps to generate a custom test plan:
 4. Select the 'Actions' button from the menu, select the 'Combine Asciidoc, Convert to HTML, and Commit' workflow.
 5. Select 'Run workflow'. You can watch the status of the workflow as it runs. Then return to your repository's main page and download the 'combined-testplan.adoc' and/or 'testplan.html' documents.
 
-NOTE: You may consider creating a new branch for each custom test plan.
+NOTE: You may consider creating a new branch for each custom test plan you want to generate.
