@@ -9,3 +9,4 @@ Test 2: The evaluator shall ensure, for each communication channel, the channel 
 Further assurance activities are associated with the specific protocols.
 
 For distributed TOEs the evaluator shall perform tests on all TOE components according to the mapping of trusted paths to TOE components in the Security Target. +
+
