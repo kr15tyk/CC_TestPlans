@@ -128,3 +128,4 @@ Test 3 [conditional]: The evaluator shall perform the following tests if “pres
 *FCS_DTLSC_EXT.1.7*
 
 The evaluator shall establish a DTLS connection with a server and observe that the early data extension and the post-handshake client authentication extension according to RFC 9147, section 5.8.4 are not advertised in the Client Hello Message. This test shall be executed for all DTLS versions supported by the TOE. +
+
