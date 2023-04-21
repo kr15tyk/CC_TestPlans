@@ -1,7 +1,6 @@
-:toc: left
-:doctype: book
+:toc:
 :toclevels: 2
-:toc-title!:
+:toc-title!: Table of Tests
 
 = Testplan for NDcPPv3.0
 :toc: preamble
