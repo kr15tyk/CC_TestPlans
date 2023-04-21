@@ -37,3 +37,4 @@ The evaluator shall verify the correctness of the TSF’s implementation of RSAE
 *_FFC Schemes using “safe-prime” groups_*
 
 The evaluator shall verify the correctness of the TSF’s implementation of safe-prime groups by using a known good implementation for each protocol selected in FTP_TRP.1/Admin, FTP_TRP.1/Join, FTP_ITC.1 and FPT_ITT.1 that uses safe-prime groups. This test must be performed for each safe-prime group that each protocol uses. +
+
