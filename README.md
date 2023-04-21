@@ -4,10 +4,10 @@ Follow these steps to generate a custom test plan:
 
 1. Fork repository and give it a unique name
 2. Check permissions, Settings>Actions>WorkFlow Permissions> Read and write
-3. Delete any SFRs you don't want in your Testplan
-4. Select 'Actions' from the top menu
+3. Delete any .adoc SFRs files you don't want in your test plan
+4. Select 'Actions' from the menu
 5. Select the 'Combine Asciidoc, Convert to HTML, and Commit' workflow
 6. Select 'Run workflow'
-7. Return to main Repo page and download 'combined-test plan.adoc and/or testplan.html docs
+7. Return to main page and download 'combined-test plan.adoc and/or testplan.html docs
 
 Note: It's recommended that you use a new fork of the test plans repository for each custom test plan you need to generate.
