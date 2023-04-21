@@ -1,4 +1,4 @@
-The testplans repository is setup to use a YAML file to generate custom NDcPPv3.0 test plans.
+This repository uses a YAML file to generate custom NDcPPv3.0 test plans.
 
 Follow these steps to generate a custom test plan:
 
