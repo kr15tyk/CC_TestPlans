@@ -23,4 +23,3 @@ The evaluators devise an input set consisting of m/8 messages, where m is the bl
 *Pseudorandomly Generated Messages Test*
 
 This test is for byte­oriented implementations only. The evaluators randomly generate a seed that is n bits long, where n is the length of the message digest produced by the hash function to be tested. The evaluators then formulate a set of 100 messages and associated digests by following the algorithm provided in Figure 1 of [SHAVS]. The evaluators then ensure that the correct result is produced when the messages are provided to the TSF. +
-
