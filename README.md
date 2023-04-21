@@ -10,4 +10,4 @@ Follow these steps to generate a custom test plan:
 6. Select 'Run workflow'. You can watch the status of the workflow as it runs.
 7. Return to your repository's main page and download the 'combined-test plan.adoc' and/or 'testplan.html' documents.
 
-Note: It's recommended that you use a new fork of the testplans repository for each custom test plan you need to generate.
+Note: It's recommended that you create a new template from this repository for each custom test plan you need to generate.
