@@ -2,7 +2,7 @@ The testplans repository is setup to use a YAML file to generate custom NDcPPv3.
 
 Follow these steps to generate a custom test plan:
 
-1. Fork this repository and give it a unique name.
+1. Select the 'Use this template' button, select create a new repository, then provide a unique name.
 2. Check your repository permissions by going to Settings>Actions>WorkFlow Permissions> Read and write.
 3. Delete any .adoc SFRs files you do not want included in your test plan.
 4. Select the 'Actions' button from the menu.
