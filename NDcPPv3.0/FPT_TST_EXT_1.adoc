@@ -12,3 +12,4 @@ Although formal compliance is not mandated, the self-tests performed should aim 
 The evaluator shall either verify that the self-tests described above are carried out during initial start-up or that the developer has justified any deviation from this.
 
 For distributed TOEs the evaluator shall perform testing of self-tests on all TOE components according to the description in the TSS about which self-test are performed by which component. +
+
