@@ -5,8 +5,9 @@
 = Testplan for NDcPPv3.0
 :toc: preamble
 
-* This testplan includes the test cases a platform will need to pass in order to be certified under the https://github.com/ND-iTC/Documents/blob/main/NDcPP_v3_0.adoc[collaborative Protection Profile for Network Devices Version 3.0 (NDcPPv3.0)].
-* The testcases below are taken from the https://github.com/ND-iTC/Documents/blob/main/ND_Supporting_Document_3_0.adoc[Network Device Supporting Document Version 3.0 (NDSDv3.0)] which defines the Evaluation Activities associated with the Security Functional Requirements (SFR) in the NDcPP. +
+This testplan includes the test cases a platform will need to pass in order to be certified under the https://github.com/ND-iTC/Documents/blob/main/NDcPP_v3_0.adoc[collaborative Protection Profile for Network Devices Version 3.0 (NDcPPv3.0)].
+
+The testcases below are taken from the https://github.com/ND-iTC/Documents/blob/main/ND_Supporting_Document_3_0.adoc[Network Device Supporting Document Version 3.0 (NDSDv3.0)] which defines the Evaluation Activities associated with the Security Functional Requirements (SFR) in the NDcPP. +
 
 === FAU_GEN.1 Audit data generation
 
