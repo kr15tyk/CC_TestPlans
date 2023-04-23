@@ -8,4 +8,3 @@ This testplan includes the test cases a platform will need to pass in order to b
 
 The testcases below are taken from the https://github.com/ND-iTC/Documents/blob/main/ND_Supporting_Document_3_0.adoc[Network Device Supporting Document Version 3.0 (NDSDv3.0)] which defines the Evaluation Activities associated with the Security Functional Requirements (SFR) in the NDcPP. +
 
-== Table of SFR Evaluation Activities
