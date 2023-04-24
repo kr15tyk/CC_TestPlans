@@ -1,4 +1,4 @@
-=== FAU_GEN_EXT.1
+=== FAU_GEN_EXT.1 Security Audit Generation
 
 For at least one of each type of distributed TOE components (sensors, central nodes, etc.), the following tests shall be performed using distributed TOEs.
 [loweralpha, start=1]
