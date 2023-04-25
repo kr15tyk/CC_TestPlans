@@ -1,4 +1,4 @@
-=== FMT_MOF.1/AutoUpdate
+==== FMT_MOF.1/AutoUpdate Management of security functions behaviour
 
 The evaluator shall perform the following tests:
 
