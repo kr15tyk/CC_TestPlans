@@ -1,4 +1,4 @@
-==== FTA_SSL_EXT.1 TSF-initiated Session Locking
+=== FTA_SSL_EXT.1 TSF-initiated Session Locking
 
 The evaluator shall perform the following test:
 
