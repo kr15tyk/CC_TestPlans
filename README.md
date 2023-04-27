@@ -8,9 +8,9 @@ _You must be logged in to create a new repository._
 
 1. Select **Use this template** button. 
 2. Create a new repository with a unique repository name and make sure to not include all branches.
-2. Check your repository permissions by going to Settings > Actions > General > WorkFlow permissions > select **Read and write permissions**, then Click **Save**.
-3. [Create a branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#creating-a-branch). For example `sdwan_testplan_branch`
-4. Delete any `.adoc` SFRs files you do not want included in your test plan. There are multiple ways to execute this step, (i.e., Git CLI, your local repository, in your browser).
+3. Check your repository permissions by going to Settings > Actions > General > WorkFlow permissions > select **Read and write permissions**, then Click **Save**.
+4. [Create a branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#creating-a-branch). For example `sdwan_testplan_branch`
+5. Delete any `.adoc` SFRs files you do not want included in your test plan. There are multiple ways to execute this step, (i.e., Git CLI, your local repository, in your browser).
 
 * In the `v3.0` directories there are many SFRs:
     ````
@@ -41,10 +41,10 @@ _You must be logged in to create a new repository._
     - FTP_ITC_1.adoc
     - FTP_TRP_1_Admin.adoc 
     ````
-5. From the Menu, select the **Actions** button.
-6. Select **Combine Asciidoc, Convert to HTML, and Commit** workflow.
-7. Select **Run workflow**. You can watch the workflow status as it runs. 
-8. Return to your repository's main page.
-9. Download the `combined-testplan.adoc` and/or `testplan.html` documents.
+6. From the Menu, select the **Actions** button.
+7. Select **Combine Asciidoc, Convert to HTML, and Commit** workflow.
+8. Select **Run workflow**. You can watch the workflow status as it runs. 
+9. Return to your repository's main page.
+10. Download the `combined-testplan.adoc` and/or `testplan.html` documents.
 
 _**NOTE:** It's recommended that you creating a new branch for each custom test plan you want to generate._
