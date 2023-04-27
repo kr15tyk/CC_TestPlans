@@ -2,7 +2,7 @@ This repository uses a YAML file to generate custom NDcPPv3.0 conformant test pl
 
 The generated test plans include the test cases a platform will need to pass in order to be certified under the [collaborative Protection Profile for Network Devices Version 3.0 (NDcPPv3.0)](https://github.com/ND-iTC/Documents/blob/main/NDcPP_v3_0.adoc).
 
-These plans are taken from the [Network Device Supporting Document Version 3.0 (NDSDv3.0)](https://github.com/ND-iTC/Documents/blob/main/ND_Supporting_Document_3_0.adoc) which defines the Evaluation Activities associated with the Security Functional Requirements (SFR) in the NDcPPv3.0.
+These test cases are taken from the [Network Device Supporting Document Version 3.0 (NDSDv3.0)](https://github.com/ND-iTC/Documents/blob/main/ND_Supporting_Document_3_0.adoc) which defines the Evaluation Activities associated with the Security Functional Requirements (SFR) in the NDcPPv3.0.
 
 ### Generate a Custom Test Plan
 
