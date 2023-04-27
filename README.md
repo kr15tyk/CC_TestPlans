@@ -1,6 +1,8 @@
-This repository uses a YAML file to generate customizable NDcPPv3.0 conformant test plans. You can choose as many mandatory and/or selection-based SFRs as necessary to meet your test plan needs.
+This repository uses a YAML file to generate custom NDcPPv3.0 conformant test plans. You can choose as many mandatory and/or selection-based SFRs as necessary to meet your test plan needs.
 
-The generated test plans include the test cases a platform will need to pass in order to be certified under the collaborative Protection Profile for Network Devices Version 3.0 (NDcPPv3.0). These plans are taken from the Network Device Supporting Document Version 3.0 (NDSDv3.0) which defines the Evaluation Activities associated with the Security Functional Requirements (SFR) in the NDcPPv3.0.
+The generated test plans include the test cases a platform will need to pass in order to be certified under the [collaborative Protection Profile for Network Devices Version 3.0 (NDcPPv3.0)](https://github.com/ND-iTC/Documents/blob/main/NDcPP_v3_0.adoc).
+
+These plans are taken from the [Network Device Supporting Document Version 3.0 (NDSDv3.0)](https://github.com/ND-iTC/Documents/blob/main/ND_Supporting_Document_3_0.adoc) which defines the Evaluation Activities associated with the Security Functional Requirements (SFR) in the NDcPPv3.0.
 
 ### Generate a Custom Test Plan
 
@@ -12,7 +14,7 @@ _You must be logged in to create a new repository._
 4. [Create a branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#creating-a-branch). For example `sdwan_testplan_branch`
 5. Delete any `.adoc` SFRs files you do not want included in your test plan. There are multiple ways to execute this step, (i.e., Git CLI, your local repository, in your browser).
 
-* In the `v3.0` directories there are many SFRs:
+* `v3.0_mandatory_SFRs`:
     ````
     - FAU_GEN_1.adoc
     - FAU_GEN_2.adoc
@@ -24,7 +26,6 @@ _You must be logged in to create a new repository._
     - FCS_COP_1_Hash.adoc
     - FCS_COP_1_KeyedHash.adoc
     - FCS_COP_1_SigGen.adoc
-    - FCS_DTLSC_EXT_1.adoc
     - FCS_RBG_EXT_1.adoc
     - FIA_UIA_EXT_1.adoc
     - FMT_MOF_1_ManualUpdate.adoc
@@ -40,6 +41,30 @@ _You must be logged in to create a new repository._
     - FTA_TAB_1.adoc
     - FTP_ITC_1.adoc
     - FTP_TRP_1_Admin.adoc 
+    ````
+    
+* `v3.0_selection_based_SFRs`:
+    ````
+    - FCS_DTLSC_EXT_1.adoc
+    - FCS_DTLSS_EXT_1.adoc
+    - FCS_HTTPS_EXT_1.adoc
+    - FCS_IPSEC_EXT_1.adoc
+    - FCS_NTP_EXT_1.adoc
+    - FCS_TLSC_EXT_1.adoc
+    - FCS_TLSS_EXT_1.adoc
+    - FIA_AFL_1 .adoc
+    - FIA_PMG_EXT_1.adoc
+    - FIA_UAU_7.adoc
+    - FIA_X509_EXT_1_Rev.adoc
+    - FIA_X509_EXT_2.adoc
+    - FIA_X509_EXT_3.adoc
+    - FMT_MOF_1_AutoUpdate.adoc
+    - FMT_MOF_1_Functions.adoc
+    - FMT_MOF_1_Services.adoc
+    - FMT_MTD_1_CryptoKeys.adoc
+    - FPT_APW_EXT_1.adoc
+    - FPT_TUD_EXT_2.adoc
+    - FTA_SSL_EXT_1.adoc 
     ````
 6. From the Menu, select the **Actions** button.
 7. Select **Combine Asciidoc, Convert to HTML, and Commit** workflow.
