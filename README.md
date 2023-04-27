@@ -10,4 +10,4 @@ Follow the steps below to generate a custom test plan:
 6. Select 'Run workflow'. You can watch the status of the workflow as it runs (30 to 60 seconds typically).
 7. Return to your branch's main page and download the 'combined-testplan.adoc' and/or 'testplan.html' documents.
 
-NOTE: Consider creating a new branch for each custom test plan you want to generate.
+NOTE: It's recommended that you creating a new branch for each custom test plan you want to generate.
