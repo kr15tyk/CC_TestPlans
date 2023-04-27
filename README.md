@@ -1,4 +1,4 @@
-This repository uses a YAML file to generate custom NDcPPv.3.0 test plans. Each v3.0 directory include a set of .adoc files with each SFR's evaluation activities. You can delete any .adoc files you don't want included in your test plan. You can then run the GitHub Action to generate your custom test plan.
+This repository uses a YAML file to generate custom NDcPPv.3.0 test plans. Each v3.0 directory includes a set of .adoc files with each SFR's evaluation activities. You can delete any .adoc files you don't want included in your test plan. You can then run the GitHub Action to generate your custom test plan.
 
 Follow the steps below to generate a custom test plan:
 
