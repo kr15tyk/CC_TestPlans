@@ -14,7 +14,7 @@ _You must be logged in to create a new repository._
 4. [Create a branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#creating-a-branch). For example `sdwan_testplan_branch`
 5. Delete any `.adoc` SFRs files you do not want included in your test plan. There are multiple ways to execute this step, (i.e., Git CLI, your local repository, in your browser).
 
-* `v3.0_mandatory_SFRs`:
+* `v3.0_mandatory_SFRs`
     ````
     - FAU_GEN_1.adoc
     - FAU_GEN_2.adoc
@@ -43,7 +43,7 @@ _You must be logged in to create a new repository._
     - FTP_TRP_1_Admin.adoc 
     ````
     
-* `v3.0_selection_based_SFRs`:
+* `v3.0_selection_based_SFRs`
     ````
     - FCS_DTLSC_EXT_1.adoc
     - FCS_DTLSS_EXT_1.adoc
