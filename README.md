@@ -1,6 +1,6 @@
 ## Testplans_NDcPP
 
-This repository uses a YAML script to generate custom NDcPPv3.0 conformant test plans. You can choose as many mandatory and/or selection-based SFRs as necessary to meet your test plan needs.
+This repository uses a YAML script to generate custom NDcPPv3.0e conformant test plans. You can choose as many mandatory and/or selection-based SFRs as necessary to meet your test plan needs.
 
 The generated test plans include the test cases a platform will need to pass in order to be certified under the [collaborative Protection Profile for Network Devices Version 3.0e (NDcPPv3.0e)](https://github.com/ND-iTC/Documents/blob/main/NDcPP_v3_0e.adoc).
 
