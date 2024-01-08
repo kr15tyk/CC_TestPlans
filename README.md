@@ -2,9 +2,9 @@
 
 This repository uses a YAML script to generate custom NDcPPv3.0 conformant test plans. You can choose as many mandatory and/or selection-based SFRs as necessary to meet your test plan needs.
 
-The generated test plans include the test cases a platform will need to pass in order to be certified under the [collaborative Protection Profile for Network Devices Version 3.0 (NDcPPv3.0)](https://github.com/ND-iTC/Documents/blob/main/NDcPP_v3_0.adoc).
+The generated test plans include the test cases a platform will need to pass in order to be certified under the [collaborative Protection Profile for Network Devices Version 3.0e (NDcPPv3.0e)](https://github.com/ND-iTC/Documents/blob/main/NDcPP_v3_0e.adoc).
 
-These test cases are taken from the [Network Device Supporting Document Version 3.0 (NDSDv3.0)](https://github.com/ND-iTC/Documents/blob/main/ND_Supporting_Document_3_0.adoc) which defines the Evaluation Activities associated with the Security Functional Requirements (SFR) in the NDcPPv3.0.
+These test cases are taken from the [Network Device Supporting Document Version 3.0e (NDSDv3.0e)](https://github.com/ND-iTC/Documents/blob/main/ND_Supporting_Document_3_0e.adoc) which defines the Evaluation Activities associated with the Security Functional Requirements (SFR) in the NDcPPv3.0e.
 
 ### Generate a Custom Test Plan
 
@@ -16,7 +16,7 @@ _You must be logged in to create a new repository._
 4. [Create a branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#creating-a-branch). For example `sdwan_testplan_branch`
 5. Delete any `.adoc` SFRs files you do not want included in your test plan. There are multiple ways to execute this step, (i.e., Git CLI, your local repository, in your browser).
 
-* `v3.0_mandatory_SFRs`
+* `NDv3.0e_mandatory_SFRs`
     ````
     - FAU_GEN_1.adoc
     - FAU_GEN_2.adoc
@@ -44,8 +44,8 @@ _You must be logged in to create a new repository._
     - FTP_ITC_1.adoc
     - FTP_TRP_1_Admin.adoc 
     ````
-    
-* `v3.0_selection_based_SFRs`
+
+* `NDv3.0e_selection_based_SFRs`
     ````
     - FCS_DTLSC_EXT_1.adoc
     - FCS_DTLSS_EXT_1.adoc
@@ -68,6 +68,14 @@ _You must be logged in to create a new repository._
     - FPT_TUD_EXT_2.adoc
     - FTA_SSL_EXT_1.adoc 
     ````
+
+ * `PKG_SSHv1.0_SFRs`
+    ````
+    - FCS_SSH_EXT.1.adoc
+    - FCS_SSHC_EXT.1.adoc
+    - FCS_SSHS_EXT.1.adoc
+    ````
+
 6. From the Menu, select the **Actions** button.
 7. Select **Combine Asciidoc, Convert to HTML, and Commit** workflow.
 8. Select **Run workflow**. You can watch the workflow status as it runs. 
