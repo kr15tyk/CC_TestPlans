@@ -1,4 +1,4 @@
-=== FAU_GEN.2 User identity association
+=== FAU_GEN.2 User Identity Association
 
 This activity should be accomplished in conjunction with the testing of FAU_GEN.1.1. +
 

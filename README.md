@@ -31,7 +31,7 @@ _You must be logged in to create a new repository._
     - FCS_RBG_EXT_1.adoc
     - FIA_UIA_EXT_1.adoc
     - FMT_MOF_1_ManualUpdate.adoc
-    - MT_MTD_1_CoreData.adoc
+    - FMT_MTD_1_CoreData.adoc
     - FMT_SMF_1.adoc
     - FMT_SMR_2.adoc
     - FPT_SKP_EXT_1.adoc

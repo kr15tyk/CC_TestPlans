@@ -1,4 +1,4 @@
-=== FMT_MOF.1/Functions Management of security functions behaviour
+=== FMT_MOF.1/Functions Management of Security Functions Behaviour
 
 *If ‘transmission of audit data to external IT entity’ is selected from the second selection together with 'modify the behaviour of' in the first selection*
 [arabic, start=546]

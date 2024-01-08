@@ -1,4 +1,4 @@
-=== FIA_X509_EXT.3 Extended: X509 Certificate Requests
+=== FIA_X509_EXT.3 X509 Certificate Requests
 
 The evaluator shall perform the following tests:
 

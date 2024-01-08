@@ -1,4 +1,4 @@
-=== FMT_MOF.1/ManualUpdate
+=== FMT_MOF.1/ManualUpdate Management of Security Functions Behaviour
 
 The evaluator shall perform the following tests:
 

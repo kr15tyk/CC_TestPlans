@@ -1,4 +1,4 @@
-=== FMT_MOF.1/Services Management of security functions behaviour
+=== FMT_MOF.1/Services Management of Security Functions Behaviour
 
 The evaluator shall perform the following tests:
 
