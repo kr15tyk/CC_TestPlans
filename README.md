@@ -78,8 +78,8 @@ _You must be logged in to create a new repository._
 
 6. From the Menu, select the **Actions** button.
 7. Select **Combine Asciidoc, Convert to HTML, and Commit** workflow.
-8. Select **Run workflow**. You can watch the workflow status as it runs. 
-9. Return to your repository's main page.
+8. Select your new branch and then **Run workflow**. You can watch the workflow status as it runs. 
+9. Return to your branch's page.
 10. Download the `combined-testplan.adoc` and/or `testplan.html` documents.
 
 _**NOTE:** It's recommended that you creating a new branch for each custom test plan you want to generate._
