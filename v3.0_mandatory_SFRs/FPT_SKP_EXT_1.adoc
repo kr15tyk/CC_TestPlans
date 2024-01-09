@@ -1,4 +1,0 @@
-=== FPT_SKP_EXT.1 Protection of TSF Data (for reading of all pre-shared, symmetric and private keys)
-
-There are no test requirements for this SFR. +
-
